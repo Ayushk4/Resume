@@ -1,0 +1,470 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{extarticle} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+% \setmainfont{times} % Main document font
+% \fontspec{[FontAwesome.otf]}
+\setmainfont[Path = Ubuntu/,  %% Optional; but UPDATE this if 
+                         %% your font files are in a folder
+ Extension = .ttf,
+ UprightFont = Ubuntu-Regular,
+ BoldFont = Ubuntu-Bold,
+ ItalicFont = Ubuntu-Italic,
+ SmallCapsFont = Ubuntu-Medium]
+{}
+\fontspec{[fontawesome-webfont.ttf]}
+
+\usepackage{color}
+\definecolor{primary}{RGB}{107, 16, 86}
+\definecolor{secondary}{RGB}{0, 0, 0}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
+%\usepackage{fullpage}
+\usepackage{fixfoot}
+\usepackage{geometry}
+\geometry{a4paper,margin=0.40cm}
+%\geometry{a4paper,left=20mm, top=20mm}
+ %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\definecolor{linkcolour}{rgb}{0.3,0.3,0.3} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
+
+\usepackage{multicol}
+\setlength{\columnsep}{0cm}
+
+\usepackage{tabularx}
+
+\usepackage{textcomp}
+
+\usepackage{fontawesome}
+
+\usepackage{enumitem}
+\setlist[description]{%
+  topsep=10pt,               % space before start / after end of list
+  itemsep=1pt,               % space between items
+%  font={\bfseries\sffamily\color{red}}, % if colour is needed
+}
+\usepackage{multicol}
+\def\arraystretch{1}
+\renewcommand{\baselinestretch}{1.1}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{multicols}{3}
+% \par{\centering\normalsize {\textsc{Undergraduate Student At Indian Institute of Technology, Kharagpur}}\par}\normalsize
+% \par{\centering\normalsize {\textsc{Department of Computer Science and Engineering}}\par}\normalsize
+%\par{{\begin{center}Dual Degree, \emph{Computer Science and Engineering}\end{center}}}
+
+\normalsize  \faGlobe\ {\href{https://ayushk4.github.io/}{\  ayushk4.github.io}}\\
+\normalsize \faGithub\ {\href{https://github.com/Ayushk4}{  Ayushk4}}\\
+\normalsize  \faLinkedinSquare\ {\href{https://www.linkedin.com/in/ayushk4}{\  ayushk4}}\\
+\columnbreak
+\normalsize\par{\centering{\huge\textsc{\textcolor{primary}{Ayush Kaushal}}}\par} % Your name
+\par{\centering\normalsize {\textsc{Meghnad Saha Hall of Residence, IIT Kharagpur, West Bengal, India - 721302}}\hfill\par}
+\columnbreak
+\raggedright\hfill\normalsize \faEnvelope\ {\href{mailto:ayushk4@gmail.com}{\ ayushk4@gmail.com}}\\
+\raggedright\hfill\normalsize \faEnvelope\ {\href{mailto:ayushkaushal@iitkgp.ac.in}{\  ayushkaushal@iitkgp.ac.in}}\\
+
+\raggedright\hfill{\faPhone\ \  +91-8938802245}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\vspace{-0.6cm}
+\section{\textcolor{primary}{Academics}}
+
+\indent \begin{tabular}{ l @{\hskip 1cm} l @{\hskip 2.5cm} l @{\hskip 1.8cm} l }
+\textbf{Year} & \textbf{Education} & \textbf{Grade}\\
+\hline
+%\begin{tabular}{r|p {17.5cm}}
+\textbf{2017-2021} & \textit{B.Tech} in \textbf{Computer Science and Engineering, IIT Kharagpur} & \textbf{9.45}/10.0 (Ongoing) \\
+% \hfill GPA & \textbf{9.45}/10.0 (Ongoing)\\
+\textbf{2017} & \textit{Higher Secondary School Certificate Examination}, \textbf{CBSE} & \textbf{93.6\%} \\
+% \hfill Percent & \textbf{93.6\%}\\
+\textbf{2015} & \textit{Secondary School Certificate Examination}, \textbf{CBSE} & \textbf{10}/10\\
+% \hfill GPA & \textbf{10}/10 \\
+\end{tabular} \\
+
+%----------------------------------------------------------------------------------------
+%	Technical Interests
+%----------------------------------------------------------------------------------------
+
+\vspace{-0.3cm}
+\section{\textcolor{primary}{Research Interests}}
+
+\noindent Machine Learning | Deep Learning | Computer Vision | Natural Language Processing %| Artificial Intelligence % | Image processing | Task automation | Game Development \\
+
+
+%----------------------------------------------------------------------------------------
+%	Work Experience
+%----------------------------------------------------------------------------------------
+
+
+% \vspace{-0.3cm}
+\section{\textcolor{primary}{Research Experience}}
+
+\begin{tabularx}{\linewidth}{ l | X }
+
+\textsc{May 19 -} & \textbf{Google Summer Of Code, 2019: {\href{https://github.com/JuliaText}{\ JuliaText}}}\hfill\textbf{FluxML, The Julia Language}\\
+    \textsc{Aug 19}& {\textit{Guide: \href{https://www.linkedin.com/in/lyndon-white-46b9a035/}{Dr Lyndon White} and \href{https://www.linkedin.com/in/aviks}{Mr Avik Sengupta}}} \\
+    & \begin{itemize}[leftmargin=.1in]
+        \item Added support for Linear Chain Conditional Random Fields in the Flux Machine Learning Library and implemented Viterbi Decode algorithm.
+        \item Explored state of the art end-to-end deep learning models for practical sequence labelling APIs using CNNs for Character Embeddings, Word Embeddings, Bi-LSTMs and Conditional Random Fields. \href{https://github.com/Ayushk4/NER.jl/tree/master/Sequence_models}{(link)}
+        \item Built well tested practical APIs for Named Entity Recognition and Part of Speech Tagging with Neural sequence labelling models as backend.
+    \end{itemize}
+% & {- Implemented state of the art, end to end models for sequence labelling - CNNs for Character Representation and Bi-LSTM and Bi-LSTM-CNN-CRFs using Flux Machine Learning Framework. }
+% }\\
+% & {- Numerous other contributions in the form of bug fixes, new features, speedups, tests and documentation to various packages in the Julia Machine Learning and Natural Language Processing Ecosystem.}\\
+\end{tabularx}
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+% \vspace{-0.3cm}
+\section{\textcolor{primary}{Research Projects}}
+
+\vspace{-0.6cm}
+\begin{tabular}{p{19.7cm}}
+% \fontsize{9}{12}\selectfont{
+\begin{description}[style=nextline, font=$\bullet$\hspace{2mm}\normalsize]
+\item[{\href{https://github.com/JuliaText/WordTokenizers.jl}{WordTokenizers.jl}}: Tokenizers for Natural Languages] \textit{(Guide: \href{https://www.linkedin.com/in/lyndon-white-46b9a035/}{Dr Lyndon White})}
+
+The package provides with a variety of word tokenizers and sentence segmenters for various Natural Languages in Julia. The package also provides with an API and its various lexer functions that let the users generate custom high-speed tokenizers with ease. The software provides a variety of prewritten word tokenizers as well. These include a tweet tokenizer, a general purpose NLTK tokenizer, an improved multilingual Tok-Tok tokenizer and a reversible tokenizer.
+
+\end{description}
+
+% \item[{\href{https://github.com/JuliaText/WordTokenizers.jl}{WordTokenizers.jl}}: Tokenizers for Natural Languages]
+% The package provides with a variety of word tokenizers and sentence segmenters for various Natural Languages in Julia. The package also provides with API and various lexer functions letting users build their custom high-speed tokenizers with ease. Provides with word tokenizers such as a tweet tokenizer, a general purpose NLTK tokenizer, an improved multilingual tok-tok tokenizer and a simple reversible tokenizer as few of the supported ones. 
+\begin{description}[style=nextline, font=$\bullet$\hspace{2mm}\normalsize]
+\item[{\href{https://github.com/lbs-iitkgp/opensoft18}{DigiCon:} Parsing handwritten Medical Prescription}] The gold-winning entry out of 13 entries to the Opensoft Competition, IIT Kharagpur (Intra - University Event). The project intelligently parses a doctor's hand-written prescription using OpenCV, Flask, Natural Language Processing with Stanford CoreNLP, CoreNLP REST API, bash scripting and Docker. Worked majorly on the backend, using Natural Language Processing and Image Processing techniques for extracting and parsing the medical prescription.
+% % & {- Implemented a Tweet tokenizer from scratch. Currently actively developing and maintaining the package.}\\
+\end{description}
+% \textsc{Mar 18} & \textbf{OpenSoft 2018 IIT Kharagpur: \href{https://github.com/lbs-iitkgp/opensoft18}{DigiCon}}\\
+% {Gold winning entry (out of 13 entries) to the Inter Hall Opensoft, IIT Kharagpur. The project intelligently parses a doctor's hand-written prescription using OpenCV, Flask, Natural Language Processing with Stanford CoreNLP, CoreNLP REST API, bash scripting and Docker. Worked mainly on the backend, using Natural Language Processing and Computer Vision techniques for parsing the prescription and extraction of details.}\\
+% \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+% \section{\textcolor{primary}{Key Projects and Work Experience}}
+% \vspace{-0.6cm}
+% \begin{tabular}{p{19.7cm}}
+% % \fontsize{9}{12}\selectfont{
+% \begin{description}[style=nextline, font=$\bullet$\hspace{2mm}\normalsize]
+% \item[{Google Summer of Code, 2019 - JuliaText}]
+% - Implemented state of the art, practical neural models for sequence labelling using Bi LSTMs CNNCRFs using Flux.
+
+% - Worked on Conditional Random Fields, Viterbi Algorithm in Flux.
+% % Implemented BM-25 and Co-occurence Matrix features in Julia.
+% - Traing models on writing well tested APIs for for Named Entity Recognition and Parts of Speech Tagging.
+
+% % Worked on a high speed tweet Tokenizer and functions for building custom tokenizers. \\
+
+% % \item[{{Multimodal stuff}}]
+% % - Bla and blas
+
+% \item[{\href{https://github.com/JuliaText/Wordtokenizers.jl}{WordTokenizers.jl}}]
+% The package, written in Julia provides high speed tokenizers to work with Natural Languages. 
+
+% % \item[{ Automatizing the annotation of unstructured documents}] 
+% % \textbf{Project guide - \href {http://cse.iitkgp.ac.in/~pawang/}{Dr. Pawan Goyal}} : The project uses Natural Language Processing, Deep Learning and Information Retrieval techniques to automatize the annotation of unstructured financial documents. %The project is currently ongoing.
+
+% \item[{\href{https://github.com/JuliaText/WordTokenizers.jl}{WordTokenizers.jl: Tokenizing natural language in Julia}}] 
+
+% \item[{\href{https://github.com/lbs-iitkgp/opensoft18}{DigiCon, OpenSoft2018 IIT Kharagpur}}] The project intelligently parses different parts of a doctor's prescription (written by hand) using multiple technologies such as OpenCV, Flask, Natural Language Processing, REST API, bash scripting and Docker.
+
+% \end{description}
+% % }
+% \end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	COURSEWORK
+%----------------------------------------------------------------------------------------
+
+\section{\textcolor{primary}{Coursework}}%\protect\footnote{* = Ongoing}}
+
+% \hfill\small\textsc{(T)heory | (L)aboratory }}
+
+% % \vspace{-0.3cm}
+%  \begin{multicols}{3}
+%  \begin{itemize}
+%  \item CS224n: NLP with Deep Learning *%\#
+%  \item Algorithms and Data Structures - 
+%  \item Software Engineering - 
+%  \item Deep Learning -
+%  \item Discrete Structures
+%  \item French
+%  \item Probability and statistics
+%  \item Symbolic Logic
+%  \item Programming and Data Structures
+%  \item Formal Languages and Automata Theory
+%  \item Computer Architecture Organisation **
+%  \item Linear Algebra **
+%  \item Knowledge Modelling and Semantic Technologies **
+%  \item Compilers **
+
+% \hfill\small\textsc{(T)heory and (L)aboratory}}
+
+\begin{tabular}{r|p{15.55cm}}
+\textsc{Completed} & Programming \& Data Structures \textbf{|} Algorithms \textbf{|} Discrete Structures \textbf{|}  Software Engineering \textbf{|} Probability And Statistics \textbf{|} Formal Languages \& Automata Theory \textbf{|} French \textbf{|} Symbolic Logic \textbf{|} Linear Algebra  \textbf{|} Compilers \textbf{|} Algorithms II \textbf{|} Knowledge Modelling \& Semantic Technologies \textbf{|}  Computer Organization and Architecture\\
+\textsc{OnGoing} & Operating Systems \textbf{|} Computer Networks \textbf{|} Information Retrieval \\
+\textsc{Online Courses} & Deep Learning Specialization Coursera \textbf{|} CS224n:NLP with Deep Learning \textbf{|} CS231n: Convolutional Neural Networks\textbf{|} Fundamentals of Reinforcement Learning \\
+\end{tabular}
+\\
+%----------------------------------------------------------------------------------------
+%	SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{\textcolor{primary}{Technical Skills}}
+
+\begin{tabular}{r|p{15cm}}
+\textsc{Programming Languages} & \textit{Proficient:} Python | Julia | C/C++ \\
+                               & \textit{Competent:} JavaScript | Octave | Java | R | Verilog\\
+\textsc{Libraries / Frameworks} & OpenCV | Numpy | Pandas | Scikit-Learn | Tensorflow | Keras | PyTorch | Flux.jl \\
+\textsc{Systems / Platforms} & Git | Linux | Bash | Heroku | Unity Game Engine | \LaTeX\\
+\textsc{Web / Server / Database} & HTML | CSS | Flask | Requests | Jekyll | Hugo | Selenium | BeautifulSoup | MySQL \\
+\end{tabular}
+%%
+%----------------------------------------------------------------------------------------
+%	Selected Side Projects
+%----------------------------------------------------------------------------------------
+\\
+\\
+\vspace{-0.3cm}
+\section{\textcolor{primary}{Miscellaneous Side Projects}}
+
+\textbf{\href{https://github.com/metakgp/kronos}{Kronos:}} Built a WebApp to serve past year's grade distributions of the various courses offered at IIT Kharagpur. 
+
+\textbf{\href{https://github.com/metakgp/twerp}{Tethering Wiki to ERP:}} Wrote a WikiBot, linking the metakgp wiki with the institute's ERP for automatically updating the wiki pages with data after each semester.
+
+\textbf{\href{https://github.com/Ayushk4/Rental-Store-Software}{Rental Store Software:}}
+\textit{(Guide: \href{https://cse.iitkgp.ac.in/~smisra/}{Dr Sudip Misra})}
+
+Built a Rental store software by applying software engineering principles as a part of coursework. The project was written in Java using Swing and MySQL.
+
+\textbf{TinyC Compiler:} \textit{(Guide: \href{https://www.linkedin.com/in/ppdas}{Dr Partha Pratim Das})} 
+
+A compiler for Tiny C, a self-defined subset of the C language, built using Compiler principles and techniques in C++ with Flex for Lexical Analysis and Bison for Semantic parsing.
+
+\textbf{Single Cycle CPU:} \textit{(Guide: \href{https://www.linkedin.com/in/bhargab-b-bhattacharya-06530132/}{Dr Bhargab Bikram Bhattacharya})} 
+
+Designed a Single Cycle 32-bit CPU with limited instruction set on Verilog and tested the hardware design on FPGA.\\
+
+
+%----------------------------------------------------------------------------------------
+% Selected Open Source Contributions
+%----------------------------------------------------------------------------------------
+
+\vspace{-0.3cm}
+\section{\textcolor{primary}{Relevant Open Source Contributions}}
+
+\textbf{\href{https://github.com/JuliaText/TextAnalysis.jl}{TextAnalysis.jl:}} A Julia Package for Text Analysis.
+    \begin{itemize}[leftmargin=.2in]
+        \item Fixed the statistical summarizer, Part of Speech Tagger, Naive Bayes Classifier and Rouge score.
+        \item Ported BM-25, Latent Semantic Analysis model and wrote an API for conversion between tagging
+        schemes.
+        \item Gave the documentation a major revamp and added offline documentation to the codebase.
+    \end{itemize}
+
+\textbf{\href{https://github.com/JuliaText/CorpusLoaders.jl}{CorpusLoaders.jl}:} A variety of loaders for various NLP corpora.
+    \begin{itemize}[leftmargin=.2in]
+        \item Added lazy loaders for Senseval, CoNLL, WikiGold corpora.
+        \item Made numerous significant contributions to the package in the form of documentation, CI test and codebase fixes.
+    \end{itemize}
+
+\textbf{\href{https://github.com/kshitij10496/hercules/}{Hercules:}} A REST API written in GoLang, providing details about IIT Kharagpur's academic data. Wrote data scrappers for the API and created a package for auto-login.
+
+\textbf{\href{https://github.com/oxinabox/DataDeps.jl}{DataDeps.jl:}} A Julia package for managing data dependencies, allowing a reproducible setup. Fixed various bugs and tests.
+
+%----------------------------------------------------------------------------------------
+%	Activities & Leadership
+%----------------------------------------------------------------------------------------
+
+\section{\textcolor{primary}{Activities and Leaderships}}
+
+% \begin{tabularx}{\linewidth}{ l | X }
+
+\textbf{\href{https://github.com/Ayushk4}{Open Source Maintainer}}\hfill\textit{\small{Mar'18-Present}}
+    \begin{itemize}[leftmargin=.15in]
+        \item Actively involved with the maintenance of open source repositories in the organisations -  \href{https://github.com/JuliaText}{JuliaText (The JuliaLang Organisation for NLP, Information Retrieval and Computational Linguistics)}, \href{https://github.com/kossiitkgp}{Kharagpur Open Source Society} and \href{https://github.com/metakgp}{Metakgp, IIT Kharagpur}. 
+        \item Mentored college students new to open source in the 5 week long GSoC styled programme of Kharagpur Winter of Code, 2018.
+    \end{itemize}
+
+\textbf{\href{https://kossiitkgp.in/}{Kharagpur Open Source Society, Executive Head}}     \hfill\textit{\small{May'18-Present}}
+    \begin{itemize}[leftmargin=.15in]
+        \item Worked towards promoting Open Source culture. Curated the contents of and taught in the Git Workshop and GoLang \& Concurrency Workshop in the Open Source Summit 2019. Mentored in the workshops on Python, Git, Ubuntu.
+        \item Successfully organized and conducted Kharagpur Winter of Code 2018 with over 2000 registrations. Responsible for development, deployment and maintenance of the \href{https://github.com/kossiitkgp/kwoc-2018}{website} as well as the smooth going of the program.
+    \end{itemize}
+
+
+\textbf{\href{https://wiki.metakgp.org}{Metakgp, Maintainer}} \hfill\textit{\small{Feb'19-Present}}
+    \begin{itemize}[leftmargin=.15in]
+        \item Active Contributor and maintainer for the Metakgp wiki, documenting the knowledge of the institute, IIT Kharagpur. Successfully conducted various activities like Demo Days and Hack Days to foster collaboration within the institute campus. \\
+    \end{itemize}
+
+% \textbf{ }
+% 	    \item Curated the contents of and taught in the Git Workshop. Organized and mentored in the Ubuntu Install fest and Python workshop.
+% 		\item Conducted the Open Source summit 2019 in the Asia - Largest Techno-Management Fest - Kshitij 2019.
+%         \item Organized and taught in the GoLang-\&-Concurrency and Python Workshops in the Open Source Summit 2019.
+% & {- Implemented state of the art, end to end models for sequence labelling - CNNs for Character Representation and Bi-LSTM and Bi-LSTM-CNN-CRFs using Flux Machine Learning Framework. \href{https://github.com/Ayushk4/NER.jl/tree/master/Sequence_models}{(link)}
+% }\\
+% & {- Built well tested practical APIs for Named Entity Recognition and Part of Speech Tagging and explored the performance of various sequence labelling models over these tasks.}\\
+% & {- Numerous other contributions in the form of bug fixes, new features, speedups, tests and documentation to various packages in the Julia Machine Learning and Natural Language Processing Ecosystem.}\\
+% \end{tabularx}
+
+% \vspace{-0.3cm}
+% \section{\textcolor{primary}{Activities and Leadership}}
+% %  \begin{multicols}{2}
+% \begin{itemize}
+
+%     \item \textbf{\href{https://kossiitkgp.in/}{Kharagpur Open Source Society} }(Executive Head)
+% 	\begin{itemize}
+% 	    \item Curated the contents of and taught in the Git Workshop. Organized and mentored in the Ubuntu Install fest and Python workshop.
+% 		\item Conducted the Open Source summit 2019 in the Asia - Largest Techno-Management Fest - Kshitij 2019.
+%         \item Organized and taught in the GoLang-\&-Concurrency and Python Workshops in the Open Source Summit 2019.
+% 	\end{itemize}
+
+%     \item \textbf{\href{https://wiki.metakgp.org/w/Metakgp:About}{MetaKGP, IIT Kharagpur} }(Maintainer)
+% 	\begin{itemize}
+% 		\item Maintainer and active contributor for the \href{https://wiki.metakgp.org/}{metakgp wiki}, centralizing the knowledge of the IIT Kharagpur.
+% 		\item Contributor and maintainer for the various metakgp \href{https://github.com/metakgp}{open sourced projects} benefiting the student community at the institute.
+% 		\item Organized Demo Days and Hack Days, to encourage students to pursue self project.
+% 	\end{itemize}
+
+%     \item \textbf{\href{https://kwoc.kossiitkgp.org/}{Kharagpur Winter of Code 2018}}
+% 	\begin{itemize}
+% 		\item Successfully organized and conducted Kharagpur Winter of Code 2018 with over 2000 registrations, responsible for full-stack development, deployment and maintenance of the website as well as smooth going of the program.
+%         \item Mentored in the 5-week long GSoC-styled program for students who are new to open source development.
+% 	\end{itemize}
+
+% %     \item \textbf{IEEE Winter Workshop on Image Processing, December 2018}
+% % 	\begin{itemize}
+% % 		\item Mentored in a week-long winter workshop for undergraduates at IIT Kharagpur and taught basic Image Processing, path planning and Linux shell.\\
+% % 	\end{itemize}
+
+% \end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	Mentorships
+%----------------------------------------------------------------------------------------
+
+% \section{\textcolor{primary}{Mentorship}}
+% \vspace{-0.6cm}
+% \begin{tabular}{p{19.7cm}}
+% % \fontsize{9}{12}\selectfont{
+% \begin{description}[style=nextline, font=$\bullet$\hspace{2mm}\normalsize]
+
+
+% \item[{\href{https://kwoc.kossiitkgp.org/}{Kharagpur Winter of Code}(KWoC)}]
+% Mentored in the 5-week long GSoC-styled program for students who are new to open source development.
+
+% \item[Mentor for Image Processing Workshop  (IEEE Robotics Winter Workshop)] 
+% Conducted a week-long workshop for undergraduates at IIT Kharagpur and taught basic Image Processing and path planning.
+
+% \end{description}
+% \end{tabular}
+
+%\newline
+
+%----------------------------------------------------------------------------------------
+% Achievements
+%----------------------------------------------------------------------------------------
+
+\vspace{-0.3cm}
+\section{\textcolor{primary}{Achievements}}
+
+\begin{tabularx}{\linewidth}{ l | X }
+
+%\begin{multicols}{2}
+% \textsc{Dec 2018} & Mentor freshman in IEEE Winter Workshop on Image Processing
+% \textsc{April 2018} & 
+\textsc{Nov 2019} & Google Code-In, 2019 mentor for The Julia Language Organisation. \\
+\textsc{May 2018} & Part of the contingent to win the General Championship Technology 2018 in the intra campus event. \\
+\textsc{April 2018} & Awarded for excellent academic performance in the first year by the Department of Computer Science and Engineering, IIT Kharagpur. \\
+\textsc{Dec 2017} & Attended a weeklong winter workshop on Image Processing and Path Planning. \\
+\textsc{May 2017} & Ranked 249, among the top 0.12 percentile in IIT Joint Entrance Exam Advanced-2017(IIT-JEE) \\
+\textsc{April 2017} & Ranked 488, among the top 0.05 percentile in Joint Entrance Exam Mains-2017(IIT-JEE Mains) \\
+\textsc{April 2017} & Kishore Vaigyanic Protsahan Yojana(KVPY) Scholar, program by Department of Science \& Technology India.\\
+% \textsc{December 2017} & Attended the Image Processing Workshop
+\textsc{December 2015} & First rank in Regional Mathematics Olympiad held in Zone Uttarakhand. \\
+\textsc{August 2017} & Member of the National Sports Organization (NSO) Tennis under the Government of India. \\
+\textsc{August 2017} & Kharagpur Freshers Tennis Tournament : Third position. \\
+\textsc{Jan 2018} & Attended a 3 Weeks long coaching camp for tennis arranged by Gymkhana, IIT Kharagpur
+%\\
+%- Merit cum Means Scholarship IIT Kharagpur \\
+%- \textbf{Merit cum Means Scholarship :} Indian Institute of Technology Kharagpur. \\
+%\end{multicols}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+
+
+%  \begin{multicols}{2}
+% \item Core Team Member, \href{https://kossiitkgp.in/}{Kharagpur Open Source Society} %: Responsible for spreading the culture of Open Source and conducts workshops every year, familiarizing students with Python, Git, Web development, Linux, Go and organizes the Kharagpur Winter of Code and Open Source summit 
+% \item Attended Image Processing Winter Workshop by IEEE
+% \item Kharagpur Freshers Tennis Tournament : Third Position
+% \item National Sports Organization (NSO) Tennis Member
+% \item Member Debating Society, IIT Kharagpur 
+%    \end{itemize}
+%  \end{multicols}
+
+%  \begin{multicols}{2}
+%  \end{multicols}
+
+
+
+%\newpage
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}
+
