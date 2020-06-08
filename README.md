@@ -1,2 +1,2 @@
 # Resume
-My resume and its latex code
+My resume related files
